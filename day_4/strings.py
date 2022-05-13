@@ -45,3 +45,43 @@ coding_acronym = [letter[0].upper() for letter in coding_str.split()]           
 print(''.join(coding_acronym))
 
 print(coding_str.index('C'))                                                        # exercise 20
+
+print(coding_str.index('F'))                                                        # exercise 21
+
+print(coding_str.rfind('l'))                                                        # exercise 22
+
+print('You cannot end a sentence with because because because is a conjunction'.index('because'))       # exercise 23
+
+print('You cannot end a sentence with because because because is a conjunction'.rindex('because'))      # exercise 24
+
+print('You cannot end a sentence with because because because is a conjunction'[31:54])                 # exercise 25
+
+print('Coding' in coding_str)                                                       # exercise 28
+
+print('coding' in coding_str)                                                       # exercise 29
+
+print('   Coding For All      '.strip())                                            # exercise 30
+
+challenge = '30DaysOfPython'                                                        # exercise 31
+print(challenge.isidentifier())
+challenge = 'thirty_days_of_python'
+print(challenge.isidentifier())
+
+print('# '.join(['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']))                # exercise 32
+
+print("I am enjoying this challenge.\nI just wonder what is next")                  # exercise 33
+
+print("Name\t\tAge\tCountry\tCity")                                                 # exercise 34
+print("Asabeneh\t250\tFinland\tHelsinki")
+
+radius = 10                                                                         # exercise 35
+area = 3.14 * radius ** 2
+print(f"The area of a cricle with radius {radius} is {area} meters square.")
+
+print(f"8 + 6 = {8+6}")                                                             # exercise 36
+print(f"8 - 6 = {8-6}")
+print(f"8 * 6 = {8*6}")
+print(f"8 / 6 = {8/6:.2f}")
+print(f"8 % 6 = {8%6}")
+print(f"8 // 6 = {8//6}")
+print(f"8 ** 6 = {8**6}")
